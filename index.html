@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jayanth M | Portfolio</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="light">
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">Jayanth M</a>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certs" class="nav-link">Certifications</a></li>
+          <li><a href="#achieve" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== HOME / HERO – CENTERED TEXT ONLY ===== -->
+    <section id="home" class="hero-section">
+      <div class="hero-content-center">
+        <h1 class="hero-title">JAYANTH M</h1>
+        <p class="hero-subtitle">
+          Aspiring Software Engineer • Full‑Stack & AI/ML Enthusiast
+        </p>
+
+        <div class="hero-contact">
+          <a href="mailto:jayanth24102003@gmail.com"
+            ><i class="fas fa-envelope"></i> jayanth24102003@gmail.com</a
+          >
+          <span><i class="fas fa-phone"></i> (+91) 6369234545</span>
+          <a href="https://linkedin.com/in/jayanth2003" target="_blank"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="https://github.com/jayanth2410" target="_blank"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="Jayanth_Resume.pdf" download class="btn btn-outline">
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+              Aspiring Software Engineer with strong skills in
+              <strong
+                >AIML, React.js, Node.js, Express.js, MySQL, Docker, Git and
+                Github</strong
+              >. Passionate about building responsive and maintainable
+              applications, with hands-on experience through academic projects
+              and certifications. Quick learner and collaborative team player.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>10+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat">
+                <h3>5+</h3>
+                <p>Certifications</p>
+              </div>
+              <div class="stat">
+                <h3>2+</h3>
+                <p>Years Learning</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-placeholder">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="grid">
+          <!-- Project 1 -->
+          <div class="card project-card">
+            <h3 class="project-title">Task & Portfolio Management Portal</h3>
+            <div class="project-meta">
+              <span class="stack">MERN • Bootstrap • CSS</span>
+              <span class="duration">May – Aug 2025</span>
+            </div>
+            <ul class="project-desc">
+              <li>
+                Built a full-stack task and portfolio management platform using
+                MERN stack, enabling admins to assign tasks and employees to
+                self-assign.
+              </li>
+              <li>
+                Integrated React-Toastify and email notifications for real-time
+                alerts, improving workflow efficiency.
+              </li>
+              <li>
+                Designed a responsive UI with Bootstrap and connected front-end
+                to back-end via RESTful APIs.
+              </li>
+              <li>
+                Implemented user authentication and role-based access control to
+                enhance security.
+              </li>
+            </ul>
+            <a
+              href="https://github.com/jayanth2410/radiant-portal"
+              target="_blank"
+              class="btn-link full-width"
+            >
+              <i class="fab fa-github"></i> View Code on GitHub
+            </a>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="card project-card">
+            <h3 class="project-title">Job Searching Platform</h3>
+            <div class="project-meta">
+              <span class="stack">MERN • Tailwind CSS</span>
+              <span class="duration">Mar – Apr 2025</span>
+            </div>
+            <ul class="project-desc">
+              <li>
+                Created a job searching platform with authentication, CRUD
+                operations, and secure user accounts using JWT.
+              </li>
+              <li>
+                Designed a responsive UI with Tailwind CSS for seamless user
+                experience across devices.
+              </li>
+              <li>
+                Integrated search and filter functionality to improve usability
+                and job discovery.
+              </li>
+              <li>Used Git/GitHub for version control and collaboration.</li>
+            </ul>
+            <a
+              href="https://job-posting-platform-frontend.onrender.com/"
+              target="_blank"
+              class="btn-link full-width live"
+            >
+              <i class="fas fa-external-link-alt"></i> View Live Demo
+            </a>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="card project-card">
+            <h3 class="project-title">
+              Java Mini Project – Student Management System
+            </h3>
+            <div class="project-meta">
+              <span class="stack">Java • OOP</span>
+              <span class="duration">Aug – Sep 2024</span>
+            </div>
+            <ul class="project-desc">
+              <li>
+                Created a Java application applying OOP principles such as
+                inheritance, encapsulation, and polymorphism.
+              </li>
+              <li>
+                Designed modular classes and methods for maintainable and
+                reusable code.
+              </li>
+              <li>
+                Enhanced debugging and problem-solving skills through iterative
+                development.
+              </li>
+            </ul>
+            <a
+              href="https://github.com/jayanth2410"
+              target="_blank"
+              class="btn-link full-width"
+              style="pointer-events: none; opacity: 0.6"
+            >
+              <i class="fab fa-github"></i> View Code on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+          <!-- Languages -->
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python"
+                /><span>Python</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                  alt="Java"
+                /><span>Java</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript"
+                /><span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                  alt="MySQL"
+                /><span>SQL</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML"
+                /><span>HTML</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS"
+                /><span>CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks -->
+          <div class="skill-category">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React"
+                /><span>React.js</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                  alt="Node.js"
+                /><span>Node.js</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                  alt="Express"
+                /><span>Express.js</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+                  alt="Bootstrap"
+                /><span>Bootstrap</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.simpleicons.org/tailwindcss/06B6D4"
+                  alt="Tailwind CSS"
+                /><span>Tailwind </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI/ML & Tools -->
+          <div class="skill-category">
+            <h3>AI/ML & Tools</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                  alt="Pandas"
+                /><span>Pandas</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                  alt="NumPy"
+                /><span>NumPy</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="Git"
+                /><span>Git</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="GitHub"
+                /><span>GitHub</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                  alt="Docker"
+                /><span>Docker</span>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                  alt="VS Code"
+                /><span>VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+              <h3>B.Tech Information Technology</h3>
+              <p>Bannari Amman Institute of Technology • CGPA 8.0</p>
+              <p>2021 – 2025</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+              <h3>Class XII (HSC)</h3>
+              <p>Bhagavan Higher Secondary School • 91.16%</p>
+              <p>2020 – 2021</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+              <h3>Class X (SSLC)</h3>
+              <p>Bhagavan Higher Secondary School • 93%</p>
+              <p>2018 – 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="certs" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certs-grid">
+          <div class="cert-card-large">
+            <img
+              src="images/Infrastructure for Developers.png"
+              alt="Infrastructure for Developers"
+            />
+            <div class="cert-info">
+              <h4>Infrastructure for Developers</h4>
+              <p>Oct 2025</p>
+            </div>
+          </div>
+          <div class="cert-card-large">
+            <img
+              src="images/applied machine learning- algo.png"
+              alt="Applied ML"
+            />
+            <div class="cert-info">
+              <h4>Applied Machine Learning: Algorithms</h4>
+              <p>Oct 2025</p>
+            </div>
+          </div>
+          <div class="cert-card-large">
+            <img src="images/learning java.png" alt="Learning Java" />
+            <div class="cert-info">
+              <h4>Learning Java</h4>
+              <p>Feb 2025</p>
+            </div>
+          </div>
+          <div class="cert-card-large">
+            <img
+              src="images/programming foundations database.png"
+              alt="Databases"
+            />
+            <div class="cert-info">
+              <h4>Programming Foundations: Databases</h4>
+              <p>Feb 2025</p>
+            </div>
+          </div>
+          <div class="cert-card-large">
+            <img src="images/postman fundamentals.png" alt="Postman" />
+            <div class="cert-info">
+              <h4>Postman API Fundamentals</h4>
+              <p>Mar 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ACHIEVEMENTS & INTERESTS – UPGRADED DESIGN ===== -->
+    <section id="achieve" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Achievements & Interests</h2>
+        <div class="achieve-grid">
+          <!-- Achievements -->
+          <div class="card achieve-card">
+            <h3><i class="fas fa-trophy"></i> Achievements</h3>
+            <div class="interest-items">
+              <div class="interest-item">
+                <span>Presented paper at BITHacks 2K23‑24</span>
+              </div>
+              <div class="interest-item">
+                <span>Volunteer Trainer – Java Programming </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interests -->
+          <div class="card interest-card">
+            <h3><i class="fas fa-heart"></i> Interests</h3>
+            <div class="interest-items">
+              <div class="interest-item">
+                <span>AI & ML</span>
+              </div>
+              <div class="interest-item">
+                <span>Web Development</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-text">
+          Feel free to reach out for collaborations or just a chat!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:jayanth24102003@gmail.com"
+            ><i class="fas fa-envelope"></i> Email</a
+          >
+          <a href="https://linkedin.com/in/jayanth2003" target="_blank"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="https://github.com/jayanth2410" target="_blank"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <p>© 2025 Jayanth M • Built with <i class="fas fa-heart"></i> & code</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
