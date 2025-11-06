@@ -64,7 +64,7 @@
 
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="Jayanth_Resume.pdf" download class="btn btn-outline">
+          <a href="Jayanth_AI_Resume.pdf" download class="btn btn-outline">
             Download Resume
           </a>
         </div>
@@ -493,6 +493,19 @@
     <footer class="footer">
       <p>© 2025 Jayanth M • Built with <i class="fas fa-heart"></i> & code</p>
     </footer>
+
+    <h4>Visitors: <span id="visitor-count">—</span></h4>
+    <script>
+      fetch("https://api.countapi.xyz/get/jayanth2410/portfolio")
+        .then((r) => r.json())
+        .then(
+          (data) =>
+            (document.getElementById("visitor-count").innerText = data.value)
+        )
+        .catch(
+          () => (document.getElementById("visitor-count").innerText = "n/a")
+        );
+    </script>
 
     <script src="script.js"></script>
   </body>
